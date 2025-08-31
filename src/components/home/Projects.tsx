@@ -9,9 +9,9 @@ const Projects = () => {
         {/* LEFT CONTENT */}
         <div>
           <p className="text-orange-500 font-semibold">Our Projects</p>
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight mt-2">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-2">
             Drive More Traffic Get <br /> More Sales
-          </h2>
+          </h1>
           <p className="text-gray-600 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
             risus nunc. Duis egestas ac ante sed tincidunt.
@@ -56,9 +56,11 @@ const Projects = () => {
         {/* RIGHT CONTENT */}
 <section className="w-full py-12">
   <div className="max-w-[1676px] mx-auto rounded-[45px] overflow-hidden">
-    <img 
+    <Image 
       src="/grawxproject.png" 
-      alt="Project Section" 
+      alt="Project Section"
+          width={650}
+    height={500} 
       className="w-full h-auto object-cover"
     />
   </div>

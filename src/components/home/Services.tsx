@@ -8,10 +8,10 @@ export default function Services() {
     <section className="max-w-[1440px] mx-auto px-6 lg:px-12 py-20">
       {/* Heading */}
       <div className=" space-y-4 mb-12">
-        <h2 className="text-4xl lg:text-5xl font-extrabold">
+        <h2 className="font-medium text-3xl leading-9 md:text-4xl md:leading-[48px] lg:text-[56px] lg:leading-[72px]">
           Our Digital Marketing Services
         </h2>
-        <p className="text-gray-600 text-lg">
+        <p className="font-normal text-base leading-6 md:text-lg md:leading-7 lg:text-[18px] lg:leading-[30px] text-gray-600">
           Unveiling Comprehensive Solutions Through Our Cutting-Edge Digital Marketing Services
         </p>
         <button className="bg-black text-white px-6 py-3 rounded-full shadow-md hover:bg-gray-800 transition">

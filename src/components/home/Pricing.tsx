@@ -45,12 +45,12 @@ export default function Pricing() {
 
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-[1440px] mx-auto px-6 ">
+      <div className="max-w-[1440px] mx-auto px-14 ">
         {/* Section Title */}
         <p className="text-orange-500 font-medium mb-2">Our Pricing</p>
-        <h2 className="text-4xl font-bold mb-12">
+        <h1 className="text-4xl font-bold mb-12">
           Harness The Power Of Digital Marketing
-        </h2>
+        </h1>
 
         {/* Pricing Cards */}
         <div className="grid gap-8 md:grid-cols-3">
@@ -81,13 +81,14 @@ export default function Pricing() {
               <p className="text-gray-600 text-sm mb-4">{plan.description}</p>
 
               {/* Features */}
-              <ul className="text-left space-y-2 mb-8 text-sm text-gray-700">
-                {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-start">
-                    <span className="mr-2">•</span> {feature}
-                  </li>
-                ))}
-              </ul>
+<ul className="text-left space-y-2 mb-8 text-base sm:text-lg leading-[30px] font-normal text-gray-700">
+  {plan.features.map((feature, i) => (
+    <li key={i} className="flex items-start">
+      <span className="mr-2 text-lg leading-[30px]">•</span>
+      {feature}
+    </li>
+  ))}
+</ul>
 
               {/* Button */}
               <button

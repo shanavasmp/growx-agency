@@ -1,29 +1,33 @@
-import React from 'react';
+import React from "react";
+import Image from "next/image";
 
-const CTA = () => {
+const CompanyCTA = () => {
   return (
-    <section className="relative py-16 px-8 bg-white overflow-hidden flex justify-between items-center">
-      <div className="max-w-xl">
-        <h2 className="text-4xl font-extrabold mb-6">
-          Are you ready to take your company revenue next level?
-        </h2>
-        <a
-          href="#contact"
-          className="inline-block px-8 py-3 text-white bg-black rounded-full text-xl font-semibold hover:bg-gray-900 transition-colors"
-        >
-          Contact Us
-        </a>
-      </div>
-      
-      <div className="ms-auto">
-        <img
-          src="/grawxcta.png"
-          alt="Project Section"
-          className="w-full max-w-xs" // You can adjust the size of the image here
-        />
+    <section className="relative w-full flex justify-center bg-white overflow-hidden py-20 px-6 lg:px-16 lg:pr-0">
+      <div className="w-full max-w-[1440px] flex flex-col lg:flex-row items-center justify-between">
+        {/* Left Side Content */}
+        <div className="max-w-[1121px] text-left">
+          <h2 className="text-[32px] sm:text-[40px] lg:text-[48px] font-medium leading-[48px] sm:leading-[56px] lg:leading-[72px] mb-8">
+            Are you ready to take your company revenue <br /> next level?
+          </h2>
+          <button className="w-[167px] h-[48px] rounded-[30px] bg-black text-white text-sm sm:text-base font-semibold hover:bg-gray-900 transition">
+            Contact Us
+          </button>
+        </div>
+
+        {/* Right Side Image */}
+        <div className="mt-10 lg:mt-0 flex-shrink-0">
+          <Image
+            src="/grawxcta.png"
+            alt="Decorative Pattern"
+            width={300}
+            height={305}
+            className="w-[200px] sm:w-[250px] lg:w-[300px] h-auto object-contain"
+          />
+        </div>
       </div>
     </section>
   );
 };
 
-export default CTA;
+export default CompanyCTA;

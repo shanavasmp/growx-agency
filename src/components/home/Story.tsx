@@ -9,10 +9,10 @@ const Story = () => {
         
         {/* Left Content */}
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
             GrowX Story
-          </h2>
-          <p className="text-lg text-gray-700 mt-4 font-medium">
+          </h1>
+          <p className="mt-4 font-medium bolder text-gray-700 text-[20px] leading-[30px] sm:text-[22px] sm:leading-[32px] lg:text-[24px] lg:leading-[36px]">
             Crafting Narratives, Igniting Impact: The Art of Amplifying Your Story with Purposeful Creativity
           </p>
           <p className="text-gray-600 mt-6 leading-relaxed">

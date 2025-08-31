@@ -12,10 +12,16 @@ export default function Navbar() {
       <nav className="w-full max-w-[1440px] flex items-center justify-between px-6 md:px-12 py-3">
         
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src="/growx-logo.png" alt="GrowX Logo" className="h-8 w-auto" />
-          <span className="font-bold text-xl">GrowX</span>
-        </div>
+<div className="flex items-center space-x-2">
+  <Image
+    src="/growx-logo.png"
+    alt="GrowX Logo"
+    width={73}
+    height={73}
+    className=" w-auto"
+  />
+  <span className="font-bold text-xl">GrowX</span>
+</div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-8 bg-white shadow-sm px-6 py-2 rounded-full">
