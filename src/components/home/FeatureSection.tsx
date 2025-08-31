@@ -22,7 +22,7 @@ const FeatureSection = () => {
                 <h3 className="text-2xl font-medium mb-3">
                   {feature.title}
                 </h3>
-                <p className="text-base font-normal leading-6 text-gray-700 whitespace-pre-line">
+                <p className="text-base font-normal leading-6 whitespace-pre-line">
                   {feature.description}
                 </p>
               </div>

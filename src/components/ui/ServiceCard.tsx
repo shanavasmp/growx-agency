@@ -18,17 +18,19 @@ export default function ServiceCard({ title, desc, icon }: ServiceCardProps) {
       </div>
 
       {/* Title & Desc */}
-      <h3 className="font-bold text-lg mb-2">{title}</h3>
-      <p className="text-gray-600 text-sm">{desc}</p>
+      <h3 className="font-medium text-lg mb-2">{title}</h3>
+      <p className=" text-sm">{desc}</p>
 
       {/* Floating Arrow */}
       <div className="absolute bottom-[-16px] mx-auto left-0 right-0 flex justify-center ">
-        <button className=" w-10 h-10 flex items-center justify-center rounded-full shadow  transition">
-            <img 
-    src="/arrow-right.png" 
-    alt="arrow icon" 
-    className=""
-  />
+        <button className="bg-white w-10 h-10 flex items-center justify-center rounded-full shadow  transition">
+<Image
+  src="/arrowright.png"
+  alt="arrow icon"
+  width={20}
+  height={20}
+  className=""
+/>
         </button>
       </div>
     </div>

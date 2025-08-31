@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 type PricingCardProps = {
   plan: string;
@@ -14,7 +15,8 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan, price, description, fea
     <div className={`p-6 rounded-lg shadow-md ${bgColor} flex flex-col items-center text-center`}>
       <div className="mb-4">
         <div className={`w-12 h-12 rounded-full bg-white flex justify-center items-center`}>
-          <img src={icon} alt={`${plan} icon`} className="w-8 h-8" />
+          <Image src={icon} alt={`${plan} icon`} width={32} height={32} className="object-contain"
+/>
         </div>
       </div>
       <h3 className="text-2xl font-bold mb-2">{plan}</h3>

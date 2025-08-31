@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CompanyCTA = () => {
   return (
-    <section className="relative w-full flex justify-center bg-white overflow-hidden py-20 px-6 lg:px-16 lg:pr-0">
+    <section className="relative w-full flex justify-center bg-white overflow-hidden pb-20 px-6 lg:px-16 lg:pr-0">
       <div className="w-full max-w-[1440px] flex flex-col lg:flex-row items-center justify-between">
         {/* Left Side Content */}
         <div className="max-w-[1121px] text-left">

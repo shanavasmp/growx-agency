@@ -13,6 +13,29 @@ export default function Hero() {
 
   return (
     <section className="relative max-w-[1440px] mx-auto mt-12 px-6 lg:px-12 grid lg:grid-cols-2 items-center gap-10">
+            {/* Decorative Curves */}
+      <Image
+        src="/top-right.png" // add this asset
+        alt="Decorative curve"
+        width={260}
+        height={200}
+        className="absolute top-[-140px] left-[0px] pointer-events-none select-none"
+      />
+      <Image
+        src="/top-left.png" // add this asset
+        alt="Decorative curve"
+        width={200}
+        height={200}
+        className="absolute top-[-140px] right-[0px] pointer-events-none select-none"
+      />
+      <Image
+        src="/grawx-line.png" // add this asset
+        alt="Decorative curve"
+        width={644}
+        height={300}
+        className="absolute bottom-[-116px] left-[0px] pointer-events-none select-none"
+      />
+
       {/* Left Content */}
       <div className="relative space-y-6">
         {/* Decorative Top-Right Icon */}
@@ -28,7 +51,7 @@ export default function Hero() {
           Unlock Your <br />
           <span className="text-orange-500">Online Marketing</span>
         </h2>
-        <p className="text-gray-700 font-normal text-base md:text-[18px] leading-6 md:leading-[30px] max-w-lg">
+        <p className="font-normal text-base md:text-[18px] leading-6 md:leading-[30px] max-w-lg">
           Empowering Success: Unleashing Strategic Excellence with Our
           Results-Driven Digital Marketing Agency
         </p>

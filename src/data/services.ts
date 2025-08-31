@@ -4,7 +4,7 @@ export const services = [
     id: 1,
     title: "SEO (Search Engine Optimization)",
     desc: "We can help you achieve high rankings in the major search engines.",
-    icon: "/search-icon.png",
+    icon: "/search.png",
   },
   {
     id: 2,

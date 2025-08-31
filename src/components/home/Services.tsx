@@ -11,7 +11,7 @@ export default function Services() {
         <h2 className="font-medium text-3xl leading-9 md:text-4xl md:leading-[48px] lg:text-[56px] lg:leading-[72px]">
           Our Digital Marketing Services
         </h2>
-        <p className="font-normal text-base leading-6 md:text-lg md:leading-7 lg:text-[18px] lg:leading-[30px] text-gray-600">
+        <p className="font-normal text-base leading-6 md:text-lg md:leading-7 lg:text-[18px] lg:leading-[30px] ">
           Unveiling Comprehensive Solutions Through Our Cutting-Edge Digital Marketing Services
         </p>
         <button className="bg-black text-white px-6 py-3 rounded-full shadow-md hover:bg-gray-800 transition">

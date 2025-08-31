@@ -4,11 +4,19 @@ p{
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 h1 {
   font-size: 32px;
   line-height: 40px;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+span{
+ font-family: 'Poppins', sans-serif; 
+}
+li{
+font-family: 'Poppins', sans-serif;
 }
 @keyframes marquee {
   0% {

@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full flex justify-center mt-3">
+    <header className="w-full flex justify-center">
       <nav className="w-full max-w-[1440px] flex items-center justify-between px-6 md:px-12 py-3">
         
         {/* Logo */}
@@ -20,7 +20,8 @@ export default function Navbar() {
     height={73}
     className=" w-auto"
   />
-  <span className="font-bold text-xl">GrowX</span>
+  <span className="font-medium text-[32px] leading-[72px] sm:text-[28px] sm:leading-[48px] xs:text-[24px] xs:leading-[36px]
+  ">GrowX</span>
 </div>
 
         {/* Desktop Menu */}

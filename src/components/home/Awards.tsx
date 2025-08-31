@@ -1,6 +1,6 @@
 export default function Awards() {
   return (
-    <section className="py-20">
+    <section className="">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="rounded-3xl border border-orange-300 p-10 md:p-16 flex flex-col md:flex-row md:items-center md:justify-between gap-12">
           {/* Left Content */}
@@ -17,25 +17,25 @@ export default function Awards() {
           <div className="grid grid-cols-2 gap-x-14 gap-y-10 flex-1">
             <div>
               <h1 className="text-4xl font-bold text-orange-500">#1</h1>
-              <p className="mt-2 text-gray-700 text-sm">
+              <p className="mt-2 text-sm">
                 top leader in worldwide SaaS industry
               </p>
             </div>
             <div>
               <h1 className="text-4xl font-bold text-orange-500">12</h1>
-              <p className="mt-2 text-gray-700 text-sm">
+              <p className="mt-2 text-sm">
                 years of experience in the business
               </p>
             </div>
             <div>
               <h1 className="text-4xl font-bold text-orange-500">14</h1>
-              <p className="mt-2 text-gray-700 text-sm">
+              <p className="mt-2 text-sm">
                 top leader in worldwide SaaS industry
               </p>
             </div>
             <div>
               <h1 className="text-4xl font-bold text-orange-500">4.9/5</h1>
-              <p className="mt-2 text-gray-700 text-sm">
+              <p className="mt-2 text-sm">
                 average rating review score
               </p>
             </div>

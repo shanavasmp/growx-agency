@@ -12,7 +12,7 @@ const Projects = () => {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-2">
             Drive More Traffic Get <br /> More Sales
           </h1>
-          <p className="text-gray-600 mt-4">
+          <p className="mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
             risus nunc. Duis egestas ac ante sed tincidunt.
           </p>

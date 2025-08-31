@@ -5,17 +5,17 @@ import Image from "next/image";
 const Story = () => {
   return (
     <section className="py-20 px-6 md:px-12 lg:px-20 bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+            GrowX Story
+          </h1>
+                    <p className="mt-4 font-medium bolder text-[20px] leading-[30px] sm:text-[22px] sm:leading-[32px] lg:text-[24px] lg:leading-[36px] mb-10">
+            Crafting Narratives, Igniting Impact: The Art of Amplifying Your Story with Purposeful Creativity
+          </p>
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 ">
         
         {/* Left Content */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-            GrowX Story
-          </h1>
-          <p className="mt-4 font-medium bolder text-gray-700 text-[20px] leading-[30px] sm:text-[22px] sm:leading-[32px] lg:text-[24px] lg:leading-[36px]">
-            Crafting Narratives, Igniting Impact: The Art of Amplifying Your Story with Purposeful Creativity
-          </p>
-          <p className="text-gray-600 mt-6 leading-relaxed">
+          <p className=" leading-relaxed">
             GrowX Company, a dynamic force in the marketing landscape, was born from the vision of industry pioneers dedicated to redefining brand narratives. 
             Established in 2010, GrowX swiftly evolved into a trailblazing marketing powerhouse, specializing in strategic amplification of brands across diverse platforms. 
             With a client-centric approach, the company has cultivated lasting partnerships by seamlessly blending creativity with data-driven insights.
